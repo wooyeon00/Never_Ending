@@ -1,0 +1,434 @@
+* {
+  /* outline: none; */
+  margin: 0;
+} 
+
+/* body {
+  overflow: hidden;
+} */
+
+#webgl-container {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#leftBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30vw;
+  height: 100vh;
+  background-color: #ffffff9a;
+  float: left;
+  box-shadow: 5px, 5px, 2px;
+}
+#logo {
+  position:absolute;
+  top:0;
+  left: 0;
+  width : 15vw;
+  height: 100vh;
+  background :url(../yeah/else/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#back_panda {
+  background: url(../yeah/else/panda.jpg) fixed;
+  background-size: contain;
+  background-position: inherit;
+}
+
+#back_modeling {
+  background: url(../yeah/else/modeling.jpg) fixed;
+  background-size: contain;
+  background-position: inherit;
+}
+
+#back_music {
+  background: url(../yeah/else/bass.jpg) fixed;
+  background-size: contain;
+  background-position: inherit;
+}
+
+#footer {
+  background-color : #000;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.line_left {
+  color: #f8f3ea;
+  width: 45%;
+  box-align: "left";
+}
+
+.path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5px;
+}
+
+
+#footer {
+  width: 100%;
+}
+
+
+
+
+
+/* 모바일 용 */
+@media (min-width: 0px) and (max-width: 500px) {
+    .back-color-navy {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #232323;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .back-color-sky {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #back_room {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(../yeah/else/room.jpg) fixed;
+    background-size: contain;
+    background-position: inherit;
+    background-size: contain;
+    
+  }
+  #back_room2 {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .write {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .write_right {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: right;
+    flex-direction: row-reverse;
+  }
+
+  .pictur {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .font_navy {
+    color : #f8f3ea;
+    margin: 5%;
+    font-size: 0.9em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+  }
+
+  .font_img {
+    color : #f8f3ea;
+    margin: 5%;
+    font-size: 0.9em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+  }
+
+  .font_stop {
+    color : #f8f3ea;
+    margin: 5%;
+    font-size: 0.9em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+  }
+
+  #right_contents {
+    color : #f8f3ea;
+    margin: 5%;
+    font-size: 0.9em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    text-align: right;
+  }
+
+  .font_footer {
+    color : #f8f3ea;
+    margin: 5%;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+  }
+
+  .path2 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2px;
+  }
+
+  .path3 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+
+  .path4 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+  
+  .path5 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+}
+
+
+
+
+
+
+
+/* 컴퓨터 용 */
+@media (min-width: 500px) {
+
+  .back-color-navy {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 650px;
+    background-color: #232323;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .back-color-sky {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 650px;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #back_room {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(../yeah/else/room.jpg) fixed;
+    background-size: contain;
+    background-position: inherit;
+    background-size: contain;
+  }
+  #back_room2 {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 650px;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .write {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .write_right {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+ 
+
+  .pictur {
+    margin: 0;
+    width: 50%;
+  }
+
+  .font_navy {
+    color : #f8f3ea;
+    position: relative;
+    margin: 5%;
+    font-size: 1.2em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+  }
+  .font_img {
+    color : #f8f3ea;
+    position: relative;
+    margin: 5%;
+    font-size: 1.2em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+  }
+
+  .font_stop {
+    color : #f8f3ea;
+    position: relative;
+    margin: 5%;
+    font-size: 1.2em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+  }
+
+  #right_contents {
+    color : #f8f3ea;
+    position: relative;
+    margin: 5%;
+    font-size: 1.2em;
+    font-family: "Noto Serif KR", serif;
+    transform : rotate(0.04deg); 
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    text-align: right;
+  }
+
+
+  .font_footer {
+    color : #f8f3ea;
+    position: relative;
+    margin: 2%;
+    font-size: 1em;
+    line-height: 1.6em;
+    letter-spacing: 0.08em;
+  }
+
+  .path2 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.2px;
+  }
+
+  .path3 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.8px;
+  }
+
+  .path4 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.8px;
+  }
+  
+  .path5 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+}
+
+
+@keyframes fallSlide {
+  from{
+    bottom: -30%;
+    opacity: 0;
+
+  }
+  to{
+    bottom: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes fall_disappear {
+  from{
+    bottom: 0%;
+    opacity: 1;
+  }
+  to{
+    bottom: -30%;
+    opacity: 0;
+  }
+}
+
+
+@keyframes Slide {
+  from{
+    right: -30%;
+    opacity: 0;
+
+  }
+  to{
+    right: 0%;
+    opacity: 1;
+  }
+}
+@keyframes Slide_disappear {
+  from{
+    right: 0%;
+    opacity: 1;
+  }
+  to{
+    right: -30%;
+    opacity: 0;
+  }
+}
